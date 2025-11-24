@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Miana</title>
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <h1>Biblioteca </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="romance.html">Romance</a></li>
+                    <li><a href="acao.html">Ação</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <section class="pesquisa">
+        <h2>Pesquisar Livro</h2>
+        <input type="text" id="campoPesquisa" placeholder="Digite o nome do livro...">
+        <button onclick="pesquisarLivro()">Pesquisar</button>
+        <p id="resultadoPesquisa"></p>
+    </section>
+
+    
+    <section class="secao">
+        <h2>Livros Mais Emprestados</h2>
+        <div class="livros-container">
+            <div class="livro"><img src="img/livro1.jpg" alt=""><p>Dom Casmurro</p></div>
+            <div class="livro"><img src="img/livro2.jpg" alt=""><p>O Pequeno Príncipe</p></div>
+            <div class="livro"><img src="img/livro3.jpg" alt=""><p>1984</p></div>
+            <div class="livro"><img src="img/livro4.jpg" alt=""><p>O Hobbit</p></div>
+        </div>
+    </section>
+
+
+    <section class="secao">
+        <h2>Categorias</h2>
+        <div class="categorias">
+            <a href="romance.html" class="botao-categoria">Romance</a>
+            <a href="acao.html" class="botao-categoria">Ação</a>
+        </div>
+    </section>
+
+
+    <section id="sobre" class="secao">
+        <h2>Sobre a Biblioteca</h2>
+        <p>Estamos muito felizes em tê-lo conosco! Em nossa plataforma, você encontrará uma vasta coleção de livros<br>
+            <br>de diversos gêneros, cuidadosamente organizados por categorias para facilitar sua navegação. Seja você um amante<br>
+            <br>de romance, um fã de ação ou alguém que busca uma leitura mais reflexiva, temos opções para todos os gostos!<br>
+            <br>Além disso, oferecemos um sistema de recomendações personalizadas, que sugere os melhores títulos com base nas<br>
+            <br>suas preferências de leitura. E para facilitar ainda mais sua experiência, contamos com uma ferramenta de busca<br>
+            <br>eficiente, que permite encontrar rapidamente os livros que você deseja, pelo seu título.<br>
+            <br>Nosso objetivo é proporcionar uma experiência única e agradável, ajudando você a descobrir novas histórias, expandir<br>
+            <br>seus horizontes e aproveitar ao máximo o prazer da leitura.<br>
+            <br>Explore, descubra e embarque nessa jornada literária conosco!</p>
+    </section>
+
+  
+    <section id="contato" class="secao">
+    <h2>Contato</h2>
+    <p>Email: contato@biblioteca.com | Telefone: (15) 99999-0000</p>
+</section>
+
+
+    <footer>
+        <p> Biblioteca Central - Rua Fictícia, 123 - Sorocaba/SP</p>
+        <p>Telefone: (15) 3333-2222</p>
+        <p>&copy; 2025 - Biblioteca Online. Todos os direitos reservados.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
